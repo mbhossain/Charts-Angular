@@ -7,12 +7,13 @@ import { NgxRoutingModule } from './ngx-routing.module';
 
 import { VerticalBarChartComponent } from './components/vertical-bar-chart/vertical-bar-chart.component';
 import { NgxComponent } from './ngx.component';
+import { GaugeChartComponent } from './components/gauge-chart/gauge-chart.component';
 
 
 @NgModule({
   declarations: [
     NgxComponent
-    , VerticalBarChartComponent
+    , VerticalBarChartComponent, GaugeChartComponent
   ],
   imports: [
     CommonModule,

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { single } from '../../data/data';
+import { single } from '../../data/vertical-bar-chart';
 
 
 @Component({
